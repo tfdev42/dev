@@ -1,0 +1,29 @@
+package HelloWorld;
+
+public class HelloWorld {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("Hello World!");
+		
+		// 2 variablen INT, >> add >> print
+		int value1 = 1; // initialisierung ... int value1; >> Deklaration
+		int value2 = 5;
+		int sum = value1 + value2;
+		System.out.println("1. zahl: " + value1 + " + 2. Zahl: " + value2 + " ist: " + sum);
+		
+		
+		// SUM x=17 / max 37
+		int Sum = 0;
+		int start = 17;
+		int anzahl = 20;
+		
+		for (int i = start; i <= anzahl + start; i++) {
+			Sum = i + Sum;
+		}
+		
+		System.out.println("Summe: " + Sum);
+		
+	}
+
+}
