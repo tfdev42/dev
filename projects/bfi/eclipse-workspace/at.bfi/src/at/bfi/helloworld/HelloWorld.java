@@ -11,7 +11,8 @@ public class HelloWorld {
 		int value2 = 5;
 		int sum = value1 + value2;
 		System.out.println("1. zahl: " + value1 + " + 2. Zahl: " + value2 + " ist: " + sum);
-		//System.out.printf("1.Zahl: %d + 2.Zahl: %d = %d", value1, value2, sum);
+		System.out.printf("1.Zahl: %d + 2.Zahl: %d = %d", value1, value2, sum);
+		System.out.println();
 		
 		// SUM x=17 / max 37
 		int Sum = 0;
