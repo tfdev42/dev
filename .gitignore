@@ -9,9 +9,12 @@ projects/java/eclipse/.gitignore
 .classpath
 /.project
 /.settings
+./.project
+./.settings
 projects/java/eclipse/exercises/.gitignore
 projects/java/eclipse/exercises/.project
 projects/java/eclipse/exercises/.settings/
 projects/bfi/Databases/
 tools/
 .metadata/
+./.metadata/
