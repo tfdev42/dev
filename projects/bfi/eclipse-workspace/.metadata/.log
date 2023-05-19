@@ -1,4 +1,4 @@
-!SESSION 2023-05-03 20:54:01.872 -----------------------------------------------
+!SESSION 2023-05-17 12:42:33.154 -----------------------------------------------
 eclipse.buildId=4.27.0.20230309-1200
 java.version=17.0.6
 java.vendor=Eclipse Adoptium
@@ -6,15 +6,15 @@ BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
 Framework arguments:  -product org.eclipse.epp.package.java.product
 Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
 
-!ENTRY ch.qos.logback.classic 1 0 2023-05-03 20:54:05.146
+!ENTRY ch.qos.logback.classic 1 0 2023-05-17 12:42:35.331
 !MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
 
-!ENTRY ch.qos.logback.classic 1 0 2023-05-03 20:56:05.856
+!ENTRY ch.qos.logback.classic 1 0 2023-05-17 12:44:04.476
 !MESSAGE Logback config file: /home/tf/dev/projects/bfi/eclipse-workspace/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.1.100.20230106-1511.xml
 
-!ENTRY org.eclipse.jface 2 0 2023-05-03 20:56:07.324
+!ENTRY org.eclipse.jface 2 0 2023-05-17 12:44:05.459
 !MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
-!SUBENTRY 1 org.eclipse.jface 2 0 2023-05-03 20:56:07.324
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-05-17 12:44:05.459
 !MESSAGE A conflict occurred for CTRL+SHIFT+T:
 Binding(CTRL+SHIFT+T,
 	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
@@ -32,7 +32,7 @@ Binding(CTRL+SHIFT+T,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
-!SUBENTRY 1 org.eclipse.jface 2 0 2023-05-03 20:56:07.324
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-05-17 12:44:05.459
 !MESSAGE A conflict occurred for ALT+SHIFT+R:
 Binding(ALT+SHIFT+R,
 	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
@@ -51,7 +51,7 @@ Binding(ALT+SHIFT+R,
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
 
-!ENTRY org.eclipse.oomph.setup.editor 2 0 2023-05-03 20:56:21.520
+!ENTRY org.eclipse.oomph.setup.editor 2 0 2023-05-17 12:44:15.296
 !MESSAGE Could not open a web browser because there are none configured. Check the Web Browser preferences.
 !STACK 1
 org.eclipse.ui.PartInitException: Could not open a web browser because there are none configured. Check the Web Browser preferences.
@@ -98,9 +98,9 @@ org.eclipse.ui.PartInitException: Could not open a web browser because there are
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1440)
-!SUBENTRY 1 org.eclipse.ui 4 0 2023-05-03 20:56:21.521
+!SUBENTRY 1 org.eclipse.ui 4 0 2023-05-17 12:44:15.297
 !MESSAGE Could not open a web browser because there are none configured. Check the Web Browser preferences.
-!SESSION 2023-05-10 18:04:28.589 -----------------------------------------------
+!SESSION 2023-05-17 12:50:52.519 -----------------------------------------------
 eclipse.buildId=4.27.0.20230309-1200
 java.version=17.0.6
 java.vendor=Eclipse Adoptium
@@ -108,15 +108,15 @@ BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
 Framework arguments:  -product org.eclipse.epp.package.java.product
 Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
 
-!ENTRY ch.qos.logback.classic 1 0 2023-05-10 18:04:32.475
+!ENTRY ch.qos.logback.classic 1 0 2023-05-17 12:50:53.321
 !MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
 
-!ENTRY ch.qos.logback.classic 1 0 2023-05-10 18:04:42.631
+!ENTRY ch.qos.logback.classic 1 0 2023-05-17 12:50:54.025
 !MESSAGE Logback config file: /home/tf/dev/projects/bfi/eclipse-workspace/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.1.100.20230106-1511.xml
 
-!ENTRY org.eclipse.jface 2 0 2023-05-10 18:04:44.261
+!ENTRY org.eclipse.jface 2 0 2023-05-17 12:50:55.291
 !MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
-!SUBENTRY 1 org.eclipse.jface 2 0 2023-05-10 18:04:44.262
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-05-17 12:50:55.291
 !MESSAGE A conflict occurred for CTRL+SHIFT+T:
 Binding(CTRL+SHIFT+T,
 	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
@@ -134,7 +134,7 @@ Binding(CTRL+SHIFT+T,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
-!SUBENTRY 1 org.eclipse.jface 2 0 2023-05-10 18:04:44.262
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-05-17 12:50:55.291
 !MESSAGE A conflict occurred for ALT+SHIFT+R:
 Binding(ALT+SHIFT+R,
 	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
@@ -152,7 +152,41 @@ Binding(ALT+SHIFT+R,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
-!SESSION 2023-05-10 19:38:26.126 -----------------------------------------------
+
+!ENTRY org.eclipse.core.resources 4 0 2023-05-17 12:57:02.512
+!MESSAGE Error occurred while reading master table file
+!STACK 0
+java.nio.charset.MalformedInputException: Input length = 1
+	at java.base/java.nio.charset.CoderResult.throwException(CoderResult.java:274)
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326)
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:188)
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:177)
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:162)
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:329)
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:396)
+	at java.base/java.nio.file.Files.readAllLines(Files.java:3415)
+	at org.eclipse.core.internal.resources.SaveManager.getBadSequenceNumberErrorMessage(SaveManager.java:1638)
+	at org.eclipse.core.internal.resources.SaveManager.validateMasterTableBeforeSave(SaveManager.java:1619)
+	at org.eclipse.core.internal.resources.SaveManager.saveMasterTable(SaveManager.java:1274)
+	at org.eclipse.core.internal.resources.SaveManager.saveMasterTable(SaveManager.java:1265)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1238)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1149)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.jobs 4 2 2023-05-17 12:57:02.515
+!MESSAGE An internal error occurred during: "Periodic workspace save.".
+!STACK 0
+java.lang.IllegalArgumentException: Cannot set lower sequence number for root (previous: 4, new: 1). Location: /home/tf/dev/projects/bfi/eclipse-workspace/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resourcesTimestamps and tree sequence numbers from file:
+	at org.eclipse.core.runtime.Assert.isLegal(Assert.java:66)
+	at org.eclipse.core.internal.resources.SaveManager.validateMasterTableBeforeSave(SaveManager.java:1620)
+	at org.eclipse.core.internal.resources.SaveManager.saveMasterTable(SaveManager.java:1274)
+	at org.eclipse.core.internal.resources.SaveManager.saveMasterTable(SaveManager.java:1265)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1238)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1149)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2023-05-17 13:27:29.592 -----------------------------------------------
 eclipse.buildId=4.27.0.20230309-1200
 java.version=17.0.6
 java.vendor=Eclipse Adoptium
@@ -160,15 +194,15 @@ BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
 Framework arguments:  -product org.eclipse.epp.package.java.product
 Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
 
-!ENTRY ch.qos.logback.classic 1 0 2023-05-10 19:38:28.252
+!ENTRY ch.qos.logback.classic 1 0 2023-05-17 13:27:31.544
 !MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
 
-!ENTRY ch.qos.logback.classic 1 0 2023-05-10 19:38:32.924
+!ENTRY ch.qos.logback.classic 1 0 2023-05-17 13:27:32.748
 !MESSAGE Logback config file: /home/tf/dev/projects/bfi/eclipse-workspace/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.1.100.20230106-1511.xml
 
-!ENTRY org.eclipse.jface 2 0 2023-05-10 19:38:35.357
+!ENTRY org.eclipse.jface 2 0 2023-05-17 13:27:35.168
 !MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
-!SUBENTRY 1 org.eclipse.jface 2 0 2023-05-10 19:38:35.357
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-05-17 13:27:35.168
 !MESSAGE A conflict occurred for CTRL+SHIFT+T:
 Binding(CTRL+SHIFT+T,
 	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
@@ -186,7 +220,59 @@ Binding(CTRL+SHIFT+T,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
-!SUBENTRY 1 org.eclipse.jface 2 0 2023-05-10 19:38:35.357
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-05-17 13:27:35.168
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.edit.text.java.rename.element"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.rename"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SESSION 2023-05-17 18:13:58.806 -----------------------------------------------
+eclipse.buildId=4.27.0.20230309-1200
+java.version=17.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2023-05-17 18:14:00.651
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2023-05-17 18:14:01.906
+!MESSAGE Logback config file: /home/tf/dev/projects/bfi/eclipse-workspace/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.1.100.20230106-1511.xml
+
+!ENTRY org.eclipse.jface 2 0 2023-05-17 18:14:04.176
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-05-17 18:14:04.176
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-05-17 18:14:04.176
 !MESSAGE A conflict occurred for ALT+SHIFT+R:
 Binding(ALT+SHIFT+R,
 	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
