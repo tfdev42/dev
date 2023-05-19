@@ -5,5 +5,13 @@ projects/bfi/eclipse-workspace/at.bfi/.classpath
 projects/bfi/eclipse-workspace/at.bfi/.gitignore
 projects/bfi/eclipse-workspace/at.bfi/.project
 projects/bfi/eclipse-workspace/at.bfi/.settings/
+projects/java/eclipse/.gitignore
+.classpath
+/.project
+/.settings
+projects/java/eclipse/exercises/.gitignore
+projects/java/eclipse/exercises/.project
+projects/java/eclipse/exercises/.settings/
 projects/bfi/Databases/
 tools/
+.metadata/
