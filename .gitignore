@@ -1,0 +1,8 @@
+projects/bfi/eclipse-workspace/.gitignore
+projects/bfi/eclipse-workspace/.stversions/
+projects/bfi/eclipse-workspace/HelloWorld/
+projects/bfi/eclipse-workspace/at.bfi/.classpath
+projects/bfi/eclipse-workspace/at.bfi/.gitignore
+projects/bfi/eclipse-workspace/at.bfi/.project
+projects/bfi/eclipse-workspace/at.bfi/.settings/
+tools/
