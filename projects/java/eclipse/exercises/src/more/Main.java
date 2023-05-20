@@ -1,5 +1,6 @@
 package more;
 import more.PositiveNegativeZero;
+import more.PoNeZe;
 
 public class Main {
 
@@ -11,10 +12,14 @@ public class Main {
 		
 		
 		
-		int number = 15;
+		int number = 0;
 		
 		
-		PositiveNegativeZero.checkNumber(number);
+		PositiveNegativeZero.checkNumber(number); // can't integrate as String because method is void
+		
+		System.out.printf("The Number %d is " + (PoNeZe.checkNumber(number)) + "\n", number); // can integrate because method is String = OK
+		
+		
 
 	}
 
