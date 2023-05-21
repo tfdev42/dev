@@ -12,12 +12,23 @@ public class Main {
 		
 		
 		
-		int number = 0;
+		int num = 0;
 		
+		System.out.printf("The Number %d is ", num);
+		PositiveNegativeZero.checkNumber(num); // can't integrate as String in Print because method is void
+
+
+		// PositiveNegativeZero positiveNegativeZero = new PositiveNegativeZero();
+		// positiveNegativeZero.checkNumber(num);
+		// System.out.println("positiveNegativeZero: " + positiveNegativeZero);
+
+		// String checkedNumber = "" + positiveNegativeZero;
+		// System.out.println(checkedNumber);
+
+
+
 		
-		PositiveNegativeZero.checkNumber(number); // can't integrate as String because method is void
-		
-		System.out.printf("The Number %d is " + (PoNeZe.checkNumber(number)) + "\n", number); // can integrate because method is String = OK
+		System.out.printf("The Number %d is " + (PoNeZe.checkNumber(num)) + "\n", num); // can integrate because method is String = OK
 		
 		
 
