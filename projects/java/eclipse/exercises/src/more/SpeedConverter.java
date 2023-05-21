@@ -10,9 +10,9 @@ public class SpeedConverter {
             return -1;
         }
 
-        double calc = (long) kilometersPerHour / 1.609;
+        double calc = kilometersPerHour / 1.609;
 
-        return Math.round(calc);
+        return (long)Math.round(calc);
 
     }
 
