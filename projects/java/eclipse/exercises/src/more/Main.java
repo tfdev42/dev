@@ -41,9 +41,10 @@ public class Main {
 
 		// ***************************************************
 
-		
-
-
+		System.out.println("MegabytesConverter");
+		MegaBytesConverter.printMegaBytesAndKiloBytes(2500);
+		MegaBytesConverter.printMegaBytesAndKiloBytes(-1024);
+		MegaBytesConverter.printMegaBytesAndKiloBytes(5000);
 
 
 	}
