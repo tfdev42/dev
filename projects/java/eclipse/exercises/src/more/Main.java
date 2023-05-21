@@ -1,6 +1,6 @@
 package more;
-import more.PositiveNegativeZero;
-import more.PoNeZe;
+// import more.PositiveNegativeZero;
+//import more.PoNeZe;
 
 public class Main {
 
@@ -15,7 +15,7 @@ public class Main {
 		int num = 0;
 		
 		System.out.printf("The Number %d is ", num);
-		PositiveNegativeZero.checkNumber(num); // can't integrate as String in Print because method is void
+		PositiveNegativeZero.checkNumber(num); // can't integrate directly as String in Print because method is void
 
 
 		// PositiveNegativeZero positiveNegativeZero = new PositiveNegativeZero();
