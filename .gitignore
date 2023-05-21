@@ -17,5 +17,5 @@ generated/
 logs/
 *.log
 .cache/
-.vscode
+.vscode/
 cache/
