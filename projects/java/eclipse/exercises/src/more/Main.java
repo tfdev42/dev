@@ -47,6 +47,17 @@ public class Main {
 		MegaBytesConverter.printMegaBytesAndKiloBytes(5000);
 
 
+		// ***************************************************
+		System.out.println();
+		System.out.println("Barking Dog");
+		System.out.println();
+		BarkingDog.shouldWakeUp(true, 1);
+
+		if (BarkingDog.shouldWakeUp(false, num)){
+			System.out.println("You have to wake up");
+		}else System.out.println("You don't have to wake up");
+
+
 	}
 
 }
