@@ -2,8 +2,6 @@ package more;
 // import more.PositiveNegativeZero;
 //import more.PoNeZe;
 
-import java.io.ObjectInputStream.GetField;
-
 public class Main {
 
 	public static void main(String[] args) {
