@@ -2,6 +2,8 @@ package more;
 // import more.PositiveNegativeZero;
 //import more.PoNeZe;
 
+import java.io.ObjectInputStream.GetField;
+
 public class Main {
 
 	public static void main(String[] args) {
@@ -51,13 +53,22 @@ public class Main {
 		// ***************************************************
 		
 		System.out.println("Barking Dog");
-		System.out.println();
 		boolean wakeUp = BarkingDog.shouldWakeUp(true, 1);
 		System.out.println("Wake up? " + String.valueOf(wakeUp));
 
 		if (BarkingDog.shouldWakeUp(true, 2)){
 			System.out.println("You have to wake up");
 		}else System.out.println("You don't have to wake up");
+		System.out.println();
+
+		// ***************************************************
+
+		System.out.println("Is Leap Year?");
+		System.out.println("-1600 is " + String.valueOf(LeapYear.isLeapYear(-1600)));
+		System.out.println("1600 is " + String.valueOf(LeapYear.isLeapYear(1600)));
+		System.out.println("2017 is " + String.valueOf(LeapYear.isLeapYear(2017)));
+		System.out.println("2000 is " + String.valueOf(LeapYear.isLeapYear(2000)));
+
 
 
 	}

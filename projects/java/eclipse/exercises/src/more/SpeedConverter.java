@@ -7,7 +7,8 @@ public class SpeedConverter {
         // 1 mile per hour is 1.609 kilometers per hour
         
         if (kilometersPerHour < 0){
-            return -1; //TODO: this should actually return "Invalid Value" and not -1 as value...
+            System.out.println("Invalid Value");
+            return -1;
         }
 
         double calc = kilometersPerHour / 1.609;
