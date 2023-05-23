@@ -45,15 +45,17 @@ public class Main {
 		MegaBytesConverter.printMegaBytesAndKiloBytes(2500);
 		MegaBytesConverter.printMegaBytesAndKiloBytes(-1024);
 		MegaBytesConverter.printMegaBytesAndKiloBytes(5000);
+		System.out.println();
 
 
 		// ***************************************************
-		System.out.println();
+		
 		System.out.println("Barking Dog");
 		System.out.println();
-		BarkingDog.shouldWakeUp(true, 1);
+		boolean wakeUp = BarkingDog.shouldWakeUp(true, 1);
+		System.out.println("Wake up? " + String.valueOf(wakeUp));
 
-		if (BarkingDog.shouldWakeUp(false, num)){
+		if (BarkingDog.shouldWakeUp(true, 2)){
 			System.out.println("You have to wake up");
 		}else System.out.println("You don't have to wake up");
 
