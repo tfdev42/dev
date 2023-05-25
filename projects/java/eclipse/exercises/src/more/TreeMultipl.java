@@ -11,9 +11,6 @@ class TreeMultipl {
             for(int n=1; n<=i; n++){
                 System.out.printf("%d + ", multiplicant);
             }
-            // do{
-            //     System.out.printf("%d + ", multiplicant);
-            // }while(i < 10);
             System.out.printf("%d = %d%n", multiplicant, result);
         }
     }
