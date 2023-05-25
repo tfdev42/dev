@@ -66,6 +66,12 @@ public class Main {
 		System.out.println("1600 is " + String.valueOf(LeapYear.isLeapYear(1600)));
 		System.out.println("2017 is " + String.valueOf(LeapYear.isLeapYear(2017)));
 		System.out.println("2000 is " + String.valueOf(LeapYear.isLeapYear(2000)));
+		System.out.println();
+
+		// ***************************************************
+
+		System.out.println("Tree Multiplicant");
+		TreeMultipl.treeViewOfMultiplication(1);
 
 
 
