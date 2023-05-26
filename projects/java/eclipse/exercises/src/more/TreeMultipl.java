@@ -11,7 +11,8 @@ class TreeMultipl {
             if (i > 1){
                 for(int n=1; n<i; n++){
                     System.out.printf("%d + ", multiplicant);
-                };           }
+                };           
+            }
             System.out.printf("%d = %d%n", multiplicant, result);
         }
     }
