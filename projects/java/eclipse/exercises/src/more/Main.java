@@ -71,7 +71,7 @@ public class Main {
 		// ***************************************************
 
 		System.out.println("Tree Multiplicant");
-		TreeMultipl.treeViewOfMultiplication(1);
+		TreeMultipl.treeViewOfMultiplication(10);
 
 
 
