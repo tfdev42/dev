@@ -77,6 +77,9 @@ public class Main {
 		// ***************************************************
 
 		System.out.println("Feet and Inches to cm");
+		System.out.println(FeetInchToCentimeter.calcFeetInchToCentimeter(42,11));
+		System.out.println(FeetInchToCentimeter.calcFeetInchToCentimeter(10,8));
+		System.out.println(FeetInchToCentimeter.calcFeetInchToCentimeter(90));
 		
 
 
