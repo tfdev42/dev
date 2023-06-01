@@ -77,10 +77,14 @@ public class Main {
 		// ***************************************************
 
 		System.out.println("Feet and Inches to cm");
-		System.out.println(FeetInchToCentimeter.calcFeetInchToCentimeter(42,11));
-		System.out.println(FeetInchToCentimeter.calcFeetInchToCentimeter(10,8));
-		System.out.println(FeetInchToCentimeter.calcFeetInchToCentimeter(90));
-		
+		System.out.printf("%.2f\n", FeetInchToCentimeter.calcFeetInchToCentimeter(42,11));
+		System.out.printf("%.2f\n", FeetInchToCentimeter.calcFeetInchToCentimeter(10,8));
+		System.out.printf("%.2f\n", FeetInchToCentimeter.calcFeetInchToCentimeter(90.5));
+		System.out.println();
+
+		// ***************************************************
+
+
 
 
 
