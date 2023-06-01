@@ -84,7 +84,13 @@ public class Main {
 
 		// ***************************************************
 
-
+		System.out.println("Minutes and Seconds");
+		SecondsAndMinutes.getDurationString(559, 9);
+		SecondsAndMinutes.getDurationString(5559);
+		System.out.println("With \"return String\"");
+		System.out.printf("%s", SecondsAndMinutes2.getDurationString(559, 9));
+		System.out.printf("%s", SecondsAndMinutes2.getDurationString(5559));
+		
 
 
 
