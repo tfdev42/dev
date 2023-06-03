@@ -10,7 +10,7 @@ public class BankAccount {
     // Constructor
     public BankAccount(){
         // 'this' must be #1 line
-        this("001", 2.5, "Defeault Name", "Default email", "Default phone");
+        this("001", 2.5, "Default Name", "Default email", "Default phone");
         System.out.println("Empty constructor called");
     }
 
@@ -21,6 +21,10 @@ public class BankAccount {
         this.customerName = customerName;
         this.customerEmail = customerEmail;
         this.phoneNumber = phoneNumber;
+    }    
+
+    public BankAccount(String customerName, String customerEmail, String phoneNumber) {
+        this("99999", 100.55, customerName, customerEmail, phoneNumber);
     }
 
     // Setters / Getters
@@ -55,6 +59,7 @@ public class BankAccount {
         return phoneNumber;
     }
 
+    // METHODS
     public double deposit(double funds){
         if (funds < 0) {
             System.out.println("Deposit must be positive");            
@@ -72,6 +77,14 @@ public class BankAccount {
             System.out.printf("New Balance after withdrawing %.2f: %.2f%n", funds, balance);
         }
         return balance;
+    }
+    public void showInfo(){
+        System.out.printf("Customer name: %s%n", getCustomerName());
+        System.out.printf("Customer Account number: %s%n", getAccountNumber());
+        System.out.printf("Account balance: %.2f%n", getBalance());
+        System.out.printf("Customer Email: %s%n", getCustomerEmail());
+        System.out.printf("Customer Phone: %s%n", getPhoneNumber());
+        System.out.println();
     }
 
 

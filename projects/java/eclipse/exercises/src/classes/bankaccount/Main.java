@@ -20,16 +20,15 @@ public class Main {
         System.out.println();
 
         BankAccount bobsBankAccount = new BankAccount("DE32065465635016540654", 0.00, "Bob McBobface", "bob@bob.bob", "+49 654065 6103-01");
-        System.out.println(bobsBankAccount.getCustomerName());
-        System.out.println(bobsBankAccount.getAccountNumber());
-        System.out.println(bobsBankAccount.getBalance());
+        bobsBankAccount.showInfo();
         System.out.println();
 
         BankAccount defBankAccount = new BankAccount();
-        System.out.println(defBankAccount.getAccountNumber());
-        System.out.println(defBankAccount.getCustomerName());
-        System.out.println(defBankAccount.getBalance());
+        defBankAccount.showInfo();
         System.out.println();
+
+        BankAccount tomsBankAccount = new BankAccount("Tom", "tom@tom.tom", "(tom) 1954 3547");
+        tomsBankAccount.showInfo();
 
 
     }
