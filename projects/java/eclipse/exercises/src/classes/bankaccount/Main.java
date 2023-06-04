@@ -30,6 +30,18 @@ public class Main {
         BankAccount tomsBankAccount = new BankAccount("Tom", "tom@tom.tom", "(tom) 1954 3547");
         tomsBankAccount.showInfo();
 
+        VipCustomer vipCustomer = new VipCustomer();
+        vipCustomer.showInfo();
+        System.out.println();
+
+        VipCustomer vipCustomer2 = new VipCustomer("Cust2 Name", 50000.00);
+        vipCustomer2.showInfo();
+        System.out.println();
+
+        VipCustomer vipCustomer3 = new VipCustomer("Cust3 Name", 1000000.00, "Cust3 Email");
+        vipCustomer3.showInfo();
+        System.out.println();
+
 
     }
 }
