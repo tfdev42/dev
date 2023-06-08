@@ -14,6 +14,17 @@ public class Main {
         Fish fish = new Fish("Gold Fish", 2, 2, 2, 2, 5);
         fish.eat();
         fish.move(3);
+        System.out.println();
+
+        Dog defDog = new Dog();
+        defDog.eat();
+        defDog.walk();
+        defDog.run();
+        System.out.println();
+
+        fish.showInfo();
+        dog.showInfo();
+        defDog.showInfo();
 
 
     }

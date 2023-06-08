@@ -48,6 +48,15 @@ public class Animal {
     public void move(int speed) {
         System.out.printf("Animal.move() called. Animal is moving at %d speed%n", speed);
     }
+
+    public void showInfo(){
+        System.out.println();
+        System.out.println("Name is " + getName());
+        System.out.println("Brain is " + getBrain());
+        System.out.println("Body is " + getBody());
+        System.out.println("Size is " + getSize());
+        System.out.println("Weight is " + getWeight());
+    }
     
 
     
