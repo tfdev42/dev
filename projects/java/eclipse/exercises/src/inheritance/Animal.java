@@ -45,8 +45,8 @@ public class Animal {
 
     }
 
-    public void move() {
-        
+    public void move(int speed) {
+        System.out.printf("Animal.move() called. Animal is moving at %d speed%n", speed);
     }
     
 
