@@ -31,7 +31,7 @@ public class Fish extends Animal {
         System.out.println("Fish.swim () called.");
         moveMuscles();
         moveBackFin();        
-        super.move(speed);    
+        super.move(speed);
     }
 
     @Override

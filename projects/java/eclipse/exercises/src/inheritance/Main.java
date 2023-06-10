@@ -23,6 +23,7 @@ public class Main {
         fish.showInfo();
         dog.showInfo();
         defDog.showInfo();
+        System.out.println();
         
         Animal animal1Animal = new Animal();
         Animal animal2Animal = new Animal("2nd constructor Animal", 2, 2);

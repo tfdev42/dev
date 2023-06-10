@@ -10,13 +10,13 @@ public class Animal {
     
     // CONSTRUCTOR CHAINING
     public Animal() {
-        this("", 1, 1, 0, 0);
+        this("", 0, 1, 0, 0);
         System.out.println("Animal() was called");
     }    
 
     public Animal(String name, int size, int weight) {
         this(name, 1, 1, size, weight);
-        System.out.println("Animal(name, size, wight) was called");
+        System.out.println("Animal(name, size, weight) was called");
     }
 
 
