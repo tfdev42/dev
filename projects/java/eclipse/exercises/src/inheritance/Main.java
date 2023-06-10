@@ -3,8 +3,6 @@ package inheritance;
 public class Main {
     public static void main(String[] args) {
         
-        Animal animal = new Animal("Animal", 1, 1, 5, 5);
-
         Dog dog = new Dog("Golden Retreaver", 8, 20, 2, 4, 1, 20, "long silky");
         dog.eat(); // method from Super Class Animal
         dog.walk();
@@ -25,6 +23,12 @@ public class Main {
         fish.showInfo();
         dog.showInfo();
         defDog.showInfo();
+        
+        Animal animal1Animal = new Animal();
+        Animal animal2Animal = new Animal("2nd constructor Animal", 2, 2);
+        Animal animal = new Animal("3rd constructor Animal", 3, 3, 3,3);
+        
+        
 
 
     }

@@ -8,9 +8,17 @@ public class Animal {
     private int weight;
 
     
-
+    // CONSTRUCTOR CHAINING
     public Animal() {
+        this("", 1, 1, 0, 0);
+        System.out.println("Animal() was called");
+    }    
+
+    public Animal(String name, int size, int weight) {
+        this(name, 1, 1, size, weight);
+        System.out.println("Animal(name, size, wight) was called");
     }
+
 
     public Animal(String name, int brain, int body, int size, int weight) {
         this.name = name;
@@ -18,8 +26,11 @@ public class Animal {
         this.body = body;
         this.size = size;
         this.weight = weight;
+        System.out.println("Animal() full constructor called");
     }
 
+
+    // GETTERS
     public String getName() {
         return name;
     }
@@ -40,6 +51,8 @@ public class Animal {
         return weight;
     }
 
+
+    // METHODS
     public void eat(){
         System.out.println("Animal.eat() called");
 
