@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"path": "../../../opt/lampp/htdocs"
+		},
+		{
+			"path": "projects/java/java-projects"
+		},
+		{
+			"path": "projects/python"
+		}
+	],
+	"settings": {
+		"java.debug.settings.onBuildFailureProceed": true,
+		"java.project.referencedLibraries": [
+			"lib/**/*.jar",
+			"/home/tf/Downloads/sqljdbc_12.2.0.0_enu/sqljdbc_12.2/enu/mssql-jdbc-12.2.0.jre8.jar"
+		]
+	}
+}
